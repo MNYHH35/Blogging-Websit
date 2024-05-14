@@ -1,18 +1,1 @@
-2024.5.7 下午
-看到第35分钟
-现在应该是要开通数据库
 
-2024 5.7 晚上22：41
-解决了editor的报错
-1.大段报错的原因是没上传封面图导致，
-上传封面图是必须的，不上传之前都会一直报错
-2.成功上传并且连接了数据库。
-但是console没有反馈（见editor.js）
-.then(() => {
-    console.log("date entered");
-    location.href = `/${docName}`;
-})
-.catch((err) => {
-    console.error(err);
-})
-不管错误或者正确都不反馈
